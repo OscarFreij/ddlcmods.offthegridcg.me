@@ -1,0 +1,12 @@
+Options -Indexes
+
+<Files .htaccess>
+order allow,deny
+require all denied
+</Files>
+
+#Protect Directory
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/oscar/httpPwd/.htpasswd
+Require user oscar
