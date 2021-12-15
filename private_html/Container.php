@@ -5,9 +5,9 @@
     * It will also act as the only access point to the *.class.php files.
     */
 
-require_once "DB.class.php";    
-require_once "Functions.class.php";    
-require_once "Credentials.class.php";
+require_once "classes/DB.class.php";    
+require_once "classes/Functions.class.php";    
+require_once "classes/Credentials.class.php";
 
 
 class Container
